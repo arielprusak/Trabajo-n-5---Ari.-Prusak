@@ -1,0 +1,147 @@
+
+/*Parte inicial*/
+.titulo-index{
+    color: black;
+    margin: 2rem;
+    padding: 4rem;
+    grid-area: header;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-areas: "nav"
+    "main"
+    ;
+    justify-content: center;
+}
+.contenedor-2{
+    grid-area: main;
+    color: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "header header header"
+    "nav nav nav"
+    "formulario formulario formulario"
+    "footer footer footer"
+    
+    ;
+    justify-content: center;
+    
+}
+
+.contenedor-imagen img{
+width: 90rem;
+height: 60rem;
+}
+.titulo{
+    font-size: 6rem;
+}
+.titulo-index h3{
+    font-size: 3rem;
+}
+/*Navegacion*/
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-family:unset;
+    margin: 1rem;
+}
+.nav{
+    width: auto;
+    height: 2rem;
+    margin: 1rem;
+    padding: 2rem;
+    grid-area: nav;
+}
+
+/*informacion-Contacto*/
+.info-mail{
+    color: black;
+    font-size: 2rem;
+    font-family:monospace;
+    margin: 1rem;
+
+}
+.info-text{
+    color: black;
+    font-size: 2rem;
+    font-family:monospace;
+    margin: 1rem;
+    
+}
+.info{
+    font-family:'Times New Roman', Times, serif;
+    margin: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.contacto{
+    font-size: 3rem;
+    color:black;
+    font-family: monospace;
+    grid-area: footer;
+}
+
+/*Fondo*/
+.pared{
+    background-image: url(../imagenes/fondo/tierra\ desde\ el\ espacio.jfif);
+}
+.fondo_2{
+    background-image: url(../imagenes/fondo/eclipse.jfif);
+}
+/*tamano de letra*/
+.tamanoletra{
+    font-size: 1rem;
+}
+/*Seccion Planetas*/
+.sistema-solar{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 5rem;
+    padding: 2rem;
+}
+.planetas{
+    color: black;
+    font-family: cursive;
+}
+/*Informacion-Contacto*/
+
+/*Estrellas*/
+.estrellas{
+    color: black;
+    font-family: cursive;
+}
+/*Galaxias*/
+.galaxias{
+    color: black;
+    font-family: cursive;   
+}
+/*MapaIntr*/
+.nav h3{
+    font-size: 1.563rem;
+    color: blanchedalmond;
+    font-family: monospace;
+}
+
+/*Tamaño de imagenes*/
+.tamano img{
+    height: 25rem;
+    width: 50rem;
+}
+.texto{
+    height: 5rem;
+    width: 12.5rem;
+}
+.formulario{
+    grid-area: formulario;
+}
+
