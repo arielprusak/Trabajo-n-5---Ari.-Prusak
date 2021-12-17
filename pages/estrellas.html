@@ -31,9 +31,6 @@
           <li class="nav-item">
             <a class="nav-link" href="informacion.html">informacion</a></li>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="buscar">
@@ -46,16 +43,31 @@
   <main class="estrellas">
     <div class="p-3 mb-2 text-dark"><h3>alfa centauri es la estrella mas cercana a nuestro sol</h3></div>
     <div class="p-3 mb-2 bg-dark text-white"><h3>la misma esta ubicada a 4.3 años luz de nuestro sistema solar </h3></div>
-   <ol class="tamanoletra">
-    <img src="../imagenes/estrellas/sol_y_sirio.jpg" width="800" height="400" alt="Sol_y_Sirio" srcset="">
-      
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imagenes/estrellas/sol_y_sirio.jpg" class="d-block w-100" alt="imagen-de-solysirio">
+        </div>
+        <div class="carousel-item">
+          <h2>aqui podemos observar compararacion de tamaños</h2>
+          <img src="../imagenes/estrellas/comparacion_de_tamanos.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <ol class="tamanoletra">      
       <br>
       <div class="p-3 mb-2 bg-dark text-white">aldebaran 65.2 años luz</div>
       <div class="p-3 mb-2 bg-dark text-white">antares 554.5 años luz</div>
       <div class="p-3 mb-2 bg-dark text-white">betelguese 642.5 años luz</div>
       <div class="p-3 mb-2 bg-dark text-white">rigel 864.3 años luz</div>
-      <h2>aqui podemos observar compararacion de tamaños</h2>
-      <img src="../imagenes/estrellas/comparacion_de_tamanos.jpg" width="800" height="400" alt="comparacion-de-tamanos" srcset="">
     </ol>
   </main>  
   
